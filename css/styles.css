@@ -1,0 +1,69 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color:  #212121;
+    --akcent-color: #2196F3;
+
+}
+
+body {
+   background-color: #E5E5E5;
+   color: #757575;
+}
+
+ul {
+    list-style: none;
+}
+/* Цвет основного текста #757575; */
+/* Цвет вторичного цвета  #212121; */
+/* Цвет лого  #000000 */
+/* Цвет акцент  #2196F3; */
+/* Вторичный цвет фона #F5F4FA; */
+/* Цвет тумбы под фото и шапки #FFFFFF */
+/* Цвет футера и героя #2F303A; */
+
+.logo {
+    color: var(--akcent-color);
+}
+.logo-header {
+    color: #000000;
+}
+/* Site-nav */
+.link {
+    color: var(--title-text-color);
+}
+.link:hover , .link:focus{
+    color: var(--akcent-color);
+    }
+    .link.current {
+        color: var(--akcent-color);
+    }
+
+/* Contacts */
+.link-contact {
+    color: var(--primary-text-color);
+}
+.link-contact:hover , .link-contact:focus {
+    color: var(--akcent-color);
+}
+/* Text h2,h3 */
+
+.section-title {
+    color: var(--title-text-color);
+}
+/* Hero */
+.hero-title {
+    color:  #FFFFFF;
+}
+/* Footer */
+.logo-footer {
+    color: #FFFFFF;
+}
+.link-adress {
+     color: #FFFFFF;
+}
+.link-footer {
+   color:  rgba(255, 255, 255, 0.6);
+}
+.link-footer:hover, .link-footer:focus {
+    color: var(--akcent-color);
+}
