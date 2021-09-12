@@ -9,6 +9,9 @@ body {
    background-color: #E5E5E5;
    color: #757575;
 }
+.page-header {
+    background-color: #FFFFFF;
+}
 
 ul {
     list-style: none;
@@ -51,10 +54,16 @@ ul {
     color: var(--title-text-color);
 }
 /* Hero */
+.hero {
+    background-color: #2F303A;;
+}
 .hero-title {
     color:  #FFFFFF;
 }
 /* Footer */
+.page-footer{
+    background-color: #2F303A;
+}
 .logo-footer {
     color: #FFFFFF;
 }
